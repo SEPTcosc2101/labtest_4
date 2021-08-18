@@ -1,4 +1,6 @@
-sudo: required
-dist: trusty
 language: java
-jdk: openjdk16
+jdk:
+  - oraclejdk10
+  - oraclejdk11
+
+script: ant build
